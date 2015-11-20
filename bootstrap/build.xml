@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="sandbox" default="all" basedir="../hybris/bin/platform">
+	<property file="${basedir}/../../../bootstrap/project.properties"/>
+	
+	<import file="${hybris.platform.home}/build.xml"/>
+	
+	<target name="test-echo">
+		<echo message="${ext.develop.path}"/>
+	</target>
+
+</project>
