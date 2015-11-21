@@ -80,5 +80,12 @@
         <extension name="acceleratorfacades"/>
         <extension name="acceleratorcms"/>
         <extension name="acceleratorstorefrontcommons"/>
+
+        <extension name="merchandisestorefront"/>
+        <extension name="merchandisefulfilmentprocess"/>
+        <extension name="merchandisecore"/>
+        <extension name="merchandiseinitialdata"/>
+        <extension name="merchandisefacades"/>
+        <extension name="merchandisecockpits"/>
     </extensions>
 </hybrisconfig>
