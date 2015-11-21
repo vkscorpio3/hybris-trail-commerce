@@ -96,7 +96,7 @@
 				</attributes>
 			</itemtype>
 		</typegroup>
-		
+
 		<typegroup name="Electronics">
 			<itemtype code="ElectronicsColorVariantProduct" extends="VariantProduct"
           autocreate="true" generate="true"
@@ -114,5 +114,25 @@
 			</itemtype>
 		</typegroup>
 
-	</itemtypes>
+        <typegroup name="merchandise">
+            <itemtype code="Product" autocreate="false" generate="false">
+                <description>Extending the Product type</description>
+                <attributes>
+                    <attribute qualifier="internalOnly" type="java.lang.Boolean">
+                        <description>Defines if the product should be sold to hybris employees only.</description>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
+            <itemtype code="Customer" autocreate="false" generate="false">
+                <description>Defines if the customer is a hybris internal employee.</description>
+                <attributes>
+                    <attribute qualifier="isInternal" type="java.lang.Boolean">
+                        <persistence type="dynamic" attributeHandler="dynamicHybrisCustomerAttributeBean"/>
+                        <modifiers read="true" write="false" optional="true" unique="false"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
+        </typegroup>
+    </itemtypes>
 </items>
