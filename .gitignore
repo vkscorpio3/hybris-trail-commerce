@@ -26,5 +26,6 @@
 /extensions/**/resources/items.xsd
 /extensions/**/hmc/resources/hmc.xsd
 /extensions/**/resources/**/*-testclasses.xml
+/extensions/**/platformhome.properties
 *.log
 pom.xml
