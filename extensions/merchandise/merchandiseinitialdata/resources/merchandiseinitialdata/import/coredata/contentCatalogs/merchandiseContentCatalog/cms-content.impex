@@ -52,8 +52,8 @@ UPDATE PageTemplate; $contentCV[unique = true]; uid[unique = true]; velocityTemp
 ; ; LandingPage5Template                 ; $jarResourceCms/structure-view/structure_landingPage5Template.vm
 ; ; LandingPage6Template                 ; $jarResourceCms/structure-view/structure_landingPage6Template.vm
 ; ; ContentPage1Template                 ; $jarResourceCms/structure-view/structure_contentPage1Template.vm
-; ; SearchResultsListPageTemplate        ; $jarResourceCms/structure-view/structure_searchResultsPageTemplate.vm
-; ; SearchResultsGridPageTemplate        ; $jarResourceCms/structure-view/structure_searchResultsPageTemplate.vm
+; ; SearchResultsListPageTemplate        ; $jarResourceCms/structure-view/structure_searchResultsListPageTemplate.vm
+; ; SearchResultsGridPageTemplate        ; $jarResourceCms/structure-view/structure_searchResultsGridPageTemplate.vm
 ; ; CartPageTemplate                     ; $jarResourceCms/structure-view/structure_cartPageTemplate.vm
 ; ; AccountPageTemplate                  ; $jarResourceCms/structure-view/structure_accountPageTemplate.vm
 ; ; StoreFinderPageTemplate              ; $jarResourceCms/structure-view/structure_storefinderSearchTemplate.vm
@@ -147,7 +147,7 @@ INSERT_UPDATE ContentSlotName; name[unique = true]; template(uid, $contentCV)[un
 ; MiniCart               ; ; ; minicart
 ; NavigationBar          ; ; ; navigation
 ; ProductLeftRefinements ; ; ; narrow
-; SearchResultListSlot   ; ; ; wide
+; SearchResultsListSlot  ; ; ; wide
 ; Footer                 ; ; ; footer
 ; TopHeaderSlot          ; ; ; wide
 ; BottomHeaderSlot       ; ; ; wide
@@ -161,7 +161,7 @@ INSERT_UPDATE ContentSlotName; name[unique = true]; template(uid, $contentCV)[un
 ; MiniCart               ; ; ; minicart
 ; NavigationBar          ; ; ; navigation
 ; ProductLeftRefinements ; ; ; narrow
-; SearchResultGridSlot   ; ; ; wide
+; SearchResultsGridSlot  ; ; ; wide
 ; Footer                 ; ; ; footer
 ; TopHeaderSlot          ; ; ; wide
 ; BottomHeaderSlot       ; ; ; wide
@@ -767,7 +767,7 @@ INSERT_UPDATE ContentPage; $contentCV[unique = true]; uid[unique = true]; name; 
 ; ; multiStepCheckoutSummaryPage ; Multi Checkout Summary Page    ; MultiStepCheckoutSummaryPageTemplate ; multiStepCheckoutSummary
 ; ; orderConfirmationPage        ; Order Confirmation Page        ; OrderConfirmationPageTemplate        ; orderConfirmation
 ; ; cartPage                     ; Cart Page                      ; CartPageTemplate                     ; cart
-; ; search                       ; Search Results Page            ; SearchResultsGridPageTemplate        ; search
+; ; search                       ; Search Results Page            ; SearchResultsListPageTemplate        ; search
 ; ; account                      ; Account Page                   ; AccountPageTemplate                  ; account
 ; ; profile                      ; Profile Page                   ; AccountPageTemplate                  ; profile
 ; ; address-book                 ; Address Book Page              ; AccountPageTemplate                  ; address-book

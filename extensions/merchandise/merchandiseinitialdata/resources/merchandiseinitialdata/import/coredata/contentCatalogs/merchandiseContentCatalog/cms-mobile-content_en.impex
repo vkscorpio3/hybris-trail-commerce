@@ -30,4 +30,6 @@ UPDATE ContentPage; $contentCV[unique = true]; uid[unique = true]; title[lang = 
 ; ; mobile-searchEmpty                  ; "No Results"
 ; ; mobile-storefinderPage              ; "StoreFinder"
 ; ; mobile-termsAndConditions           ; "Terms and Conditions"
+; ; mobile-update-email                 ; "Update Email"
+; ; mobile-update-profile               ; "Update Profile"
 ; ; mobile-updatePassword               ; "Update Forgotten Password"
