@@ -25,4 +25,22 @@
 		<property name="sampleDataImportService" ref="sampleDataImportService"/>
 	</bean>
 
+	<bean id="merchandiseCategorySource" parent="abstractCategorySource">
+		<property name="rootCategory" value="1"/>
+	</bean>
+	<bean id="merchandiseBrandCategorySource" parent="abstractCategorySource">
+		<property name="rootCategory" value="brands"/>
+	</bean>
+	<bean id="merchandiseCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+		<property name="categorySource" ref="merchandiseCategorySource"/>
+	</bean>
+	<bean id="merchandiseBrandCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+		<property name="categorySource" ref="merchandiseBrandCategorySource"/>
+	</bean>
+	<bean id="merchandiseCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+		<property name="categorySource" ref="merchandiseCategorySource"/>
+	</bean>
+	<bean id="merchandiseBrandCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+		<property name="categorySource" ref="merchandiseBrandCategorySource"/>
+	</bean>
 </beans>

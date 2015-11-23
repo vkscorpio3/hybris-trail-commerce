@@ -3,7 +3,7 @@
 # Macros / Replacement Parameter definitions
 $productCatalog = merchandiseProductCatalog
 $productCatalogName = Merchandise Product Catalog
-$vendor = merchandiseVendor
+$vendor = merchandise
 
 $catalogVersion = catalogversion(catalog(id[default = $productCatalog]), version[default = 'Staged'])[unique = true, default = $productCatalog:Staged]
 

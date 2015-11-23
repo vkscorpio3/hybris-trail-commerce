@@ -1,6 +1,7 @@
 #
 # Import the Solr configuration for the store
 #
+$prefix = merchandise
 $productCatalog = merchandiseProductCatalog
 $catalogVersions = catalogVersions(catalog(id), version);
 $serverConfigName = merchandiseSolrServerConfig
