@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorcms/acceleratorcms.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorcms/acceleratorcms.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorfacades/acceleratorfacades.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorfacades/acceleratorfacades.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorservices/acceleratorservices.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorservices/acceleratorservices.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-addon/addonsupport/addonsupport.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-addon/addonsupport/addonsupport.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-data/apparelstore/apparelstore.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-data/apparelstore/apparelstore.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-addon/b2ccheckoutaddon/b2ccheckoutaddon.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-addon/b2ccheckoutaddon/b2ccheckoutaddon.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/basecommerce/basecommerce.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/basecommerce/basecommerce.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/btg/btg.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/btg/btg.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-content/cms2/cms2.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-content/cms2/cms2.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-content/cms2lib/cms2lib.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-content/cms2lib/cms2lib.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-content/cmscockpit/cmscockpit.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-content/cmscockpit/cmscockpit.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-cockpit/cockpit/cockpit.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-cockpit/cockpit/cockpit.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/commercefacades/commercefacades.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/commercefacades/commercefacades.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/commerceservices/commerceservices.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/commerceservices/commerceservices.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/config/config.iml" filepath="$PROJECT_DIR$/hybris/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-channel/cscockpit/cscockpit.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-channel/cscockpit/cscockpit.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/customerreview/customerreview.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/customerreview/customerreview.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-data/electronicsstore/electronicsstore.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-data/electronicsstore/electronicsstore.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-platform-optional/hmc/hmc.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-platform-optional/hmc/hmc.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-platform-optional/ldap/ldap.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-platform-optional/ldap/ldap.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisecockpits/merchandisecockpits.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisecockpits/merchandisecockpits.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisecore/merchandisecore.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisecore/merchandisecore.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisefacades/merchandisefacades.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisefacades/merchandisefacades.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisefulfilmentprocess/merchandisefulfilmentprocess.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisefulfilmentprocess/merchandisefulfilmentprocess.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandiseinitialdata/merchandiseinitialdata.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandiseinitialdata/merchandiseinitialdata.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisestorefront/merchandisestorefront.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisestorefront/merchandisestorefront.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/merchandise/merchandisetest/merchandisetest.iml" filepath="$PROJECT_DIR$/extensions/merchandise/merchandisetest/merchandisetest.iml" group="Merchandise" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/payment/payment.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/payment/payment.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/platform/platform.iml" filepath="$PROJECT_DIR$/hybris/bin/platform/platform.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-platform-optional/platformhmc/platformhmc.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-platform-optional/platformhmc/platformhmc.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-content/productcockpit/productcockpit.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-content/productcockpit/productcockpit.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/promotions/promotions.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/promotions/promotions.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-cockpit/reportcockpit/reportcockpit.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-cockpit/reportcockpit/reportcockpit.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/solrfacetsearch/solrfacetsearch.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/solrfacetsearch/solrfacetsearch.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/solrfacetsearchhmc/solrfacetsearchhmc.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/solrfacetsearchhmc/solrfacetsearchhmc.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/ticketsystem/ticketsystem.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/ticketsystem/ticketsystem.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-platform-optional/virtualjdbc/virtualjdbc.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-platform-optional/virtualjdbc/virtualjdbc.iml" group="Hybris" />
+      <module fileurl="file://$PROJECT_DIR$/hybris/bin/ext-commerce/voucher/voucher.iml" filepath="$PROJECT_DIR$/hybris/bin/ext-commerce/voucher/voucher.iml" group="Hybris" />
+    </modules>
+  </component>
+</project>
