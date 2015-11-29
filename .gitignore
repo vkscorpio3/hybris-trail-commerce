@@ -5,6 +5,8 @@
 /hybris-*
 /licenses/*
 /Mobile-Commerce-SDK
+/.idea
+/extensions/**/*.iml
 /extensions/**/gensrc/
 /extensions/**/addons/
 /extensions/**/addonsrc/
