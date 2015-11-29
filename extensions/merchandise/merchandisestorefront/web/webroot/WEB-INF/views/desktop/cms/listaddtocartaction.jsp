@@ -18,19 +18,20 @@
 	</c:when>
 </c:choose>
 </a>
+<!-- make product unavailable if user external and product internal only -->
+<c:if test="${product.internalOnly and !user.internal}">
+	<c:set var="buttonType">button</c:set>
+	<spring:theme code="text.addToCart.unavailable" var="addToCartText"/>
+</c:if>
 <div class="cart clearfix">
 	<c:url value="/cart/add" var="addToCartUrl"/>
 	<ycommerce:testId code="searchPage_addToCart_button_${product.code}">
 		<form:form id="addToCartForm${product.code}" action="${addToCartUrl}" method="post" class="add_to_cart_form">
 			<input type="hidden" name="productCodePost" value="${product.code}"/>
-			<input type="hidden" name="productNamePost" value="${product.name}"/>
-			<input type="hidden" name="productPostPrice" value="${product.price.value}"/>
-			
 			<button type="${buttonType}" class="addToCartButton <c:if test="
-			${product.stock.stockLevelStatus.code eq 'outOfStock' }">out-of-stock</c:if>"
-			<c:if test="${product.stock.stockLevelStatus.code eq 'outOfStock' }"> disabled="disabled" aria-disabled="true"</c:if>
+            ${product.stock.stockLevelStatus.code eq 'outOfStock' }">out-of-stock</c:if>"
+					<c:if test="${(product.stock.stockLevelStatus.code eq 'outOfStock') || fn:contains(buttonType, 'button') }"> disabled="disabled" aria-disabled="true"</c:if>
 			>${addToCartText}</button>
 		</form:form>
 	</ycommerce:testId>
-
 </div>
