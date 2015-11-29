@@ -84,6 +84,7 @@
         <extension name="merchandisestorefront"/>
         <extension name="merchandisefulfilmentprocess"/>
         <extension name="merchandisecore"/>
+        <extension name="merchandisecommerceservices"/>
         <extension name="merchandiseinitialdata"/>
         <extension name="merchandisefacades"/>
         <extension name="merchandisecockpits"/>
