@@ -131,5 +131,6 @@
       </library>
     </orderEntry>
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="merchandisecommerceservices" />
   </component>
 </module>

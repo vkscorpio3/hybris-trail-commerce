@@ -16,31 +16,36 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<!-- System Setup -->
+    <!-- System Setup -->
 
-	<bean id="yAcceleratorInitialDataSystemSetup"
-	      class="de.hybris.merchandise.initialdata.setup.InitialDataSystemSetup"
-	      parent="abstractCoreSystemSetup">
-		<property name="coreDataImportService" ref="coreDataImportService"/>
-		<property name="sampleDataImportService" ref="sampleDataImportService"/>
-	</bean>
+    <bean id="yAcceleratorInitialDataSystemSetup"
+          class="de.hybris.merchandise.initialdata.setup.InitialDataSystemSetup"
+          parent="abstractCoreSystemSetup">
+        <property name="coreDataImportService" ref="coreDataImportService"/>
+        <property name="sampleDataImportService" ref="sampleDataImportService"/>
+    </bean>
 
-	<bean id="merchandiseCategorySource" parent="abstractCategorySource">
-		<property name="rootCategory" value="1"/>
-	</bean>
-	<bean id="merchandiseBrandCategorySource" parent="abstractCategorySource">
-		<property name="rootCategory" value="brands"/>
-	</bean>
-	<bean id="merchandiseCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
-		<property name="categorySource" ref="merchandiseCategorySource"/>
-	</bean>
-	<bean id="merchandiseBrandCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
-		<property name="categorySource" ref="merchandiseBrandCategorySource"/>
-	</bean>
-	<bean id="merchandiseCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
-		<property name="categorySource" ref="merchandiseCategorySource"/>
-	</bean>
-	<bean id="merchandiseBrandCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
-		<property name="categorySource" ref="merchandiseBrandCategorySource"/>
-	</bean>
+    <bean id="merchandiseCategorySource" parent="abstractCategorySource">
+        <property name="rootCategory" value="1"/>
+    </bean>
+    <bean id="merchandiseBrandCategorySource" parent="abstractCategorySource">
+        <property name="rootCategory" value="brands"/>
+    </bean>
+    <bean id="merchandiseCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+        <property name="categorySource" ref="merchandiseCategorySource"/>
+    </bean>
+    <bean id="merchandiseBrandCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+        <property name="categorySource" ref="merchandiseBrandCategorySource"/>
+    </bean>
+    <bean id="merchandiseCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+        <property name="categorySource" ref="merchandiseCategorySource"/>
+    </bean>
+    <bean id="merchandiseBrandCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+        <property name="categorySource" ref="merchandiseBrandCategorySource"/>
+    </bean>
+
+    <alias name="merchandiseDataImportService" alias="sampleDataImportService"/>
+    <bean id="merchandiseDataImportService"
+          class="de.hybris.merchandise.initialdata.dataimport.impl.MerchandiseDataImportService"
+          parent="defaultSampleDataImportService"/>
 </beans>
